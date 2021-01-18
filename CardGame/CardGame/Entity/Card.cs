@@ -10,10 +10,10 @@ namespace CardGame.Entity
         public CardNumber CardNumber { get; set; }
         public CardShape CardShape { get; set; }
 
-        public Card(CardShape sh, CardNumber num)
+        public Card(CardShape cardShape, CardNumber cardNumber)
         {
-            CardNumber = num;
-            CardShape = sh;
+            CardNumber = cardNumber;
+            CardShape = cardShape;
         }
     }
 }

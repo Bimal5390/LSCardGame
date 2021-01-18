@@ -26,10 +26,10 @@ namespace CardGame
             do
             {
                 Console.WriteLine("Please Choose one of the below Options to play: ");
-                Console.WriteLine("1. Play a Card");
-                Console.WriteLine("2. Shuffle the Deck");
-                Console.WriteLine("3. Restart the Game");
-                Console.WriteLine("4. Stop the Game");
+                Console.WriteLine("........ 1. Play a Card .............");
+                Console.WriteLine("........ 2. Shuffle the Deck ........");
+                Console.WriteLine("........ 3. Restart the Game.........");
+                Console.WriteLine("........ 4. Stop the Game ...........");
                 Console.WriteLine("Hello, What do you suppose to do ?");
                 choice = int.Parse(Console.ReadLine());
                 switch (choice)
@@ -47,22 +47,21 @@ namespace CardGame
                         break;
                     case 2:
                         deck.ShuffleCards();
-                        Console.WriteLine("Cards Shuffled !!");
+                        Console.WriteLine("!!!!!!!!! Cards Shuffled !!!!!!!!");
                         break;
                     case 3:
                         deck = new CardDeck();
-                        Console.WriteLine("Game Restarted !!");
+                        Console.WriteLine("!!!!!!!! Game Restarted !!!!!!!!!");
                         break;
                     case 4:
-                        Console.WriteLine("Game Stopped !!");
+                        Console.WriteLine("!!!!!!!! Game Stopped !!!!!!!!!!!");
                         break;
                     default:
                         Console.WriteLine("Please, Retry with below options!");
                         break;
                 }
-                Console.WriteLine("Press any key to continue..");
+                Console.WriteLine("Press enter to continue.........");
                 Console.ReadKey();
-                //Console.Clear();
             } while (choice != 4);
         }
     }
