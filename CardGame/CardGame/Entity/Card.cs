@@ -1,11 +1,19 @@
-﻿namespace CardGame.Entity
+﻿/// <summary>
+/// Object class for card
+/// </summary>
+namespace CardGame.Entity
 {
     using CardGame.Enum;
 
     public class Card
     {
-        public string DisplayName { get; set; }
-        public Suit Suit { get; set; }
-        public int Value { get; set; }
+        public CardNumber CardNumber { get; set; }
+        public CardShape CardShape { get; set; }
+
+        public Card(CardShape sh, CardNumber num)
+        {
+            CardNumber = num;
+            CardShape = sh;
+        }
     }
 }

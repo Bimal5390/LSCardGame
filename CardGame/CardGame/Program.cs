@@ -1,4 +1,7 @@
-﻿namespace CardGame
+﻿/// <summary>
+/// Entry point of the console application
+/// </summary>
+namespace CardGame
 {
     using System;
 
