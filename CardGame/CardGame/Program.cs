@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace CardGame
+﻿namespace CardGame
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)
