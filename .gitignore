@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CardGame/CardGame/obj/Debug/netcoreapp3.1/CardGame.csproj.FileListAbsolute.txt
+/CardGame/CardGame/bin/Debug/netcoreapp3.1/CardGame.deps.json
+/CardGame/CardGame/bin/Debug/netcoreapp3.1/CardGame.dll
+/CardGame/CardGame/obj/Debug/netcoreapp3.1
+/CardGame/CardGame/bin/Debug/netcoreapp3.1
