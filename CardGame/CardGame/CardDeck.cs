@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// 
 /// </summary>
-namespace CardGame.CardDeck
+namespace CardGame
 {
     using CardGame.Entity;
     using CardGame.Enum;
@@ -13,6 +13,9 @@ namespace CardGame.CardDeck
         int i;
         private const int _totalCards = 52, _totalCardNumbers = 13, _totalCardShapes = 4;
 
+        /// <summary>
+        /// 
+        /// </summary>
         public CardDeck()
         {
             try
@@ -37,6 +40,9 @@ namespace CardGame.CardDeck
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public void ShuffleCards()
         {
             try
@@ -58,6 +64,10 @@ namespace CardGame.CardDeck
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public Card PlayCard()
         {
             Card temp = null;

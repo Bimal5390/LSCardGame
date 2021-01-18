@@ -17,6 +17,9 @@ namespace CardGame
             deck = new CardDeck();
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public void Start()
         {
             Console.WriteLine("Ding! Ding! Ding! Card Game Started !!");
@@ -40,9 +43,7 @@ namespace CardGame
                             Console.WriteLine($"Card Number:{card.CardNumber.ToString()} && Card Shape: {card.CardShape.ToString()}");
                         }
                         else
-                        {
                             Console.WriteLine("No Cards Available! Kindly Restart the Game!! ");
-                        }
                         break;
                     case 2:
                         deck.ShuffleCards();
@@ -61,7 +62,7 @@ namespace CardGame
                 }
                 Console.WriteLine("Press any key to continue..");
                 Console.ReadKey();
-                Console.Clear();
+                //Console.Clear();
             } while (choice != 4);
         }
     }
