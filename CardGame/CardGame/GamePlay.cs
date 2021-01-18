@@ -22,7 +22,7 @@ namespace CardGame
         /// </summary>
         public void Start()
         {
-            Console.WriteLine("Ding! Ding! Ding! Card Game Started !!");
+            Console.WriteLine("!!!!!!!! Card Game Started !!!!!!!!!");
             do
             {
                 Console.WriteLine("Please Choose one of the below Options to play: ");
@@ -30,7 +30,7 @@ namespace CardGame
                 Console.WriteLine("2. Shuffle the Deck");
                 Console.WriteLine("3. Restart the Game");
                 Console.WriteLine("4. Stop the Game");
-                Console.WriteLine("Sire, What do you suffice to do ?");
+                Console.WriteLine("Hello, What do you suppose to do ?");
                 choice = int.Parse(Console.ReadLine());
                 switch (choice)
                 {
