@@ -9,7 +9,17 @@ namespace CardGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                GamePlay game = new GamePlay();
+                game.Start();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error Message Log:");
+                Console.WriteLine(ex.StackTrace);
+            }
+            Console.ReadKey();
         }
     }
 }
