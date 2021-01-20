@@ -7,6 +7,9 @@ namespace CardGame
 
     class Program
     {
+        /// <summary>
+        /// Main Method to create the Game Play class and kick of the game
+        /// </summary>
         static void Main(string[] args)
         {
             try

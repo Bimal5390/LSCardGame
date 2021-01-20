@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// 
+/// Business logic for game to play
 /// </summary>
 namespace CardGame
 {
@@ -18,7 +18,7 @@ namespace CardGame
         }
 
         /// <summary>
-        /// 
+        /// Let the Game Begin! It provides them with the below options to play the game
         /// </summary>
         public void Start()
         {

@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// 
+/// Class contains card play logic, shuffle logic
 /// </summary>
 namespace CardGame
 {
@@ -14,7 +14,7 @@ namespace CardGame
         private const int _totalCards = 52, _totalCardNumbers = 13, _totalCardShapes = 4;
 
         /// <summary>
-        /// 
+        /// Constructor - Creates set of 52 cards and shuffles them
         /// </summary>
         public CardDeck()
         {
@@ -41,7 +41,7 @@ namespace CardGame
         }
 
         /// <summary>
-        /// 
+        /// Logic to Shuffle the remaining card
         /// </summary>
         public void ShuffleCards()
         {
@@ -65,7 +65,7 @@ namespace CardGame
         }
 
         /// <summary>
-        /// 
+        /// Logic for Play a card from the deck
         /// </summary>
         /// <returns></returns>
         public Card PlayCard()
